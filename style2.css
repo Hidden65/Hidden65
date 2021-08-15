@@ -1,0 +1,28 @@
+.{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+  
+.centerdiv{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  height: 100px;
+  width: 100px;
+  background-color: #f0f8ff;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  line-height: 126px;
+  box-shadow: 1px 4px 2px 2px #dcdde1 ;
+  }
+  a i{
+    transition: all 0.3s linear;
+  }
+  a:hover i{
+    transform: scale (1.4);
+  }
